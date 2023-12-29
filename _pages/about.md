@@ -1,26 +1,33 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: lorenzo_pompili.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office 0.62</p>
+    <p>Am Mühlenberg 1</p>
+    <p>14476 Potsdam</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am Lorenzo Pompili, a PhD student in the [Astrophysical and Cosmological Relativity Department](https://www.aei.mpg.de/astro-cosmo-rel) of the [Max Planck Insitute for Gravitational Physics](https://www.aei.mpg.de/), working on gravitational wave (GW) modeling and data analysis under the supervision of Prof. Alessandra Buonanno. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am originally from Perugia, Italy, where I completed my undergraduate studies in Physics and continued to earn a Master's in Theoretical Physics at the University of Perugia.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current research interests include: 
+- GW modeling for compact object binaries using the effective-one-body (EOB) framework, both in general relativity (GR) and in modified gravity theories.
+- Assessing the impact of waveform systematics on parameter estimation and tests of GR of GW signals.
+- Black-hole spectroscopy. 
+
+I am a developer and maintainer of [pySEOBNR](https://git.ligo.org/waveforms/software/pyseobnr), a Python package specializing in flexible and efficient GW modeling within the EOB formalism, with the goal of addressing the data-analysis challenges posed by current and next-generation ground and space-based GW detectors.
+
+I am a member of the [LIGO Scientific Collaboration](https://www.ligo.org/), of the [Einstein Telescope Collaboration](https://www.et-gw.eu/) and a full member of the [LISA Consortium](https://www.elisascience.org/).

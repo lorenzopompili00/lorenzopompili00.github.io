@@ -20,7 +20,7 @@ I am originally from [Perugia](https://en.wikipedia.org/wiki/Perugia), Italy, wh
 
 ### My work
 
-My research lies at the intersection of gravitational-waveform modeling and data analysis. 
+My research lies at the intersection of gravitational-wave modeling and data analysis. 
 
 I focus on developing accurate and efficient models for the gravitational radiation emitted by coalescing compact binaries, both within General Relativity (GR) and in modified gravity theories, focusing on effective-one-body (EOB) models and their improvement through numerical relativity (NR). I am one of the main developers and a maintainer of the [pySEOBNR](https://git.ligo.org/waveforms/software/pyseobnr) python package.
 

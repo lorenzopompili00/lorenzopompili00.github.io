@@ -18,20 +18,20 @@ lorenzo.pompili@aei.mpg.de
 
 **Jun 2021 – Present**  - PhD Student in Gravitational-Wave Astronomy   
 *Max Planck Institute for Gravitational Physics*, Potsdam (Germany)  
-- **PhD Thesis:** *Ever more accurate effective-one-body waveforms for gravitational-wave astrophysics*  
-- **Supervisor:** Prof. Alessandra Buonanno (Max Planck Institute for Gravitational Physics)
+- PhD Thesis: *Ever more accurate effective-one-body waveforms for gravitational-wave astrophysics*  
+- Supervisor: Prof. Alessandra Buonanno (Max Planck Institute for Gravitational Physics)
 
 
 **Sep 2018 – Apr 2021**  - Master's Degree in Theoretical Physics - 110/110 cum laude  
 *Università degli Studi di Perugia*, Perugia (Italy)  
-- **Master Thesis:** *Near-extreme Kerr magnetospheres*  
-- **Supervisor:** Prof. Marta Orselli (Università degli Studi di Perugia, Niels Bohr Institute)
+- Master Thesis: *Near-extreme Kerr magnetospheres*  
+- Supervisor: Prof. Marta Orselli (Università degli Studi di Perugia, Niels Bohr Institute)
 
 
 **Sep 2015 – Sep 2018** - Bachelor's Degree in Physics - 110/110 cum laude  
 *Università degli Studi di Perugia*, Perugia (Italy)  
-- **Bachelor Thesis:** *Relativistic hydrodynamics*  
-- **Supervisor:** Prof. Gianluca Grignani (Università degli Studi di Perugia)
+- Bachelor Thesis: *Relativistic hydrodynamics*  
+- Supervisor: Prof. Gianluca Grignani (Università degli Studi di Perugia)
 
 
 ## Memberships

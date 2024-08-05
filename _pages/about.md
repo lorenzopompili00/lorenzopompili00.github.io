@@ -16,6 +16,8 @@ I am a member of the [LIGO Scientific Collaboration](https://www.ligo.org/), the
 
 I am originally from [Perugia](https://en.wikipedia.org/wiki/Perugia), Italy, where I completed my undergraduate studies in Physics and went on to earn a Master's in Theoretical Physics at the University of Perugia. 
 
+![image info](./pictures/pic.png)
+
 ### My work
 
 My research lies at the intersection of gravitational-waveform modeling and data analysis. 
@@ -24,4 +26,3 @@ I focus on developing accurate and efficient models for the gravitational radiat
 
 Additionally, I am interested in using these models to address open questions in fundamental physics and astrophysics. I employ them for parameter estimation and tests of GR using data from current gravitational wave detectors, LIGO, Virgo, and KAGRA. I also work on making forecasts for next-generation gravitational wave detectors, including LISA and the Einstein Telescope, focusing on the challenges and accuracy requirements these future instruments will face.
 
-![image info](./pictures/pic.png)

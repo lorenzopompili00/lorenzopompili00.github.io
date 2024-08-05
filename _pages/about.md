@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-### About me
-
 ![image info](./pictures/pic.png)
+
+### About me
 
 Hi! I am Lorenzo Pompili, a PhD student in the [Astrophysical and Cosmological Relativity Department](https://www.aei.mpg.de/astro-cosmo-rel) at the [Max Planck Insitute for Gravitational Physics](https://www.aei.mpg.de/), under the supervision of Prof. Alessandra Buonanno. 
 

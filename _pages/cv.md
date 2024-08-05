@@ -68,10 +68,3 @@ lorenzo.pompili@aei.mpg.de
 
 - **2021–Present**: [pySEOBNR](https://git.ligo.org/waveforms/software/pyseobnr)
   - *Accurate and efficient gravitational wave models for compact binary coalescences using the effective-one-body (EOB) approach.*
-
-<div>
-  <img style="float:right" width="85" height="85" src="/pictures/Logo_A_redsymbol_blackwordmark.png"> 
-  <div style="float:left">
-    <b>Test</b> <br>
-  </div>
-</div>

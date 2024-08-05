@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-![image info](./pictures/pic.png)
 
 ### About me
 
@@ -24,3 +23,5 @@ My research lies at the intersection of gravitational-waveform modeling and data
 I focus on developing accurate and efficient models for the gravitational radiation emitted by coalescing compact binaries, both within General Relativity (GR) and in modified gravity theories, focusing on effective-one-body (EOB) models and their improvement through numerical relativity (NR). I am one of the main developers and a maintainer of the [pySEOBNR](https://git.ligo.org/waveforms/software/pyseobnr) python package.
 
 Additionally, I am interested in using these models to address open questions in fundamental physics and astrophysics. I employ them for parameter estimation and tests of GR using data from current gravitational wave detectors, LIGO, Virgo, and KAGRA. I also work on making forecasts for next-generation gravitational wave detectors, including LISA and the Einstein Telescope, focusing on the challenges and accuracy requirements these future instruments will face.
+
+![image info](./pictures/pic.png)

@@ -36,9 +36,10 @@ Phys.Rev.D 108 (2023) 12, 124036, [arXiv:2303.18143](https://arxiv.org/abs/2303.
 **[1]** **Lorenzo Pompili** et al., *Laying the foundation of the effective-one-body waveform models SEOBNRv5: improved accuracy and efficiency for spinning non-precessing binary black holes*  
 Phys.Rev.D 108 (2023) 12, 124035, [arXiv:2303.18039](https://arxiv.org/abs/2303.18039)
 
+![image info](./pictures/SXS_BBH_1225_Res5_polarisation_hp-1.png)
+
 ### Long-authorlist publications with direct contribution
 
-![image info](./pictures/SXS_BBH_1225_Res5_polarisation_hp.pdf)
 
 **[3]** Anuradha Gupta et al. (inc. **Lorenzo Pompili**), *Possible Causes of False General Relativity Violations in Gravitational Wave Observations*  
 [arxiv:2405.02197](https://arxiv.org/abs/2405.02197)

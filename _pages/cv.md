@@ -14,6 +14,9 @@ lorenzo.pompili@aei.mpg.de
 
 ---
 
+![CV](./files/Curriculum_Vitae.pdf)
+
+
 ## Education
 
 **Jun 2021 – Present**  - PhD Student in Gravitational-Wave Astronomy   

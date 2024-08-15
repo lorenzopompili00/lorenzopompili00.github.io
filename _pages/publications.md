@@ -16,13 +16,13 @@ Submitted to Phys.Rev.D., [arXiv:2406.13654](https://arxiv.org/abs/2406.13654)
 Submitted to Phys.Rev.Lett., [arXiv:2405.19181](https://arxiv.org/abs/2405.19181)
 
 **[10]** Anuradha Gupta et al. (inc. **Lorenzo Pompili**), *Possible Causes of False General Relativity Violations in Gravitational Wave Observations*  
-[arxiv:2405.02197](https://arxiv.org/abs/2405.02197)
+Submitted to SciPost Physics Community Reports, [arxiv:2405.02197](https://arxiv.org/abs/2405.02197)
 
 **[9]** Arnab Dhani et al. (inc. **Lorenzo Pompili**), *Systematic Biases in Estimating the Properties of Black Holes Due to Inaccurate Gravitational-Wave Models*  
 Submitted to Phys.Rev.X, [arXiv:2404.05811](https://arxiv.org/abs/2404.05811)
 
 **[8]** LIGO-Virgo-KAGRA Collaboration (inc. **Lorenzo Pompili**), *Observation of Gravitational Waves from the Coalescence of a $$\sim 2.5-5 M_\odot$$ Compact Object and a Neutron Star*  
-Submitted to ApJL, [arXiv:2404.04248](https://arxiv.org/abs/2404.04248)
+Astrophys.J.Lett. 970 (2024) 2, L34, [arXiv:2404.04248](https://arxiv.org/abs/2404.04248)
 
 **[7]** LISA Consortium Waveform Working Group (inc. **Lorenzo Pompili**), *Waveform Modelling for the Laser Interferometer Space Antenna*  
 Submitted to Living Rev.Rel., [arXiv:2311.01300](https://arxiv.org/abs/2311.01300)

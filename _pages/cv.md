@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-[Download My CV](files/Curriculum_Vitae.pdf){: .btn .btn-primary }
+[CV](https://lorenzopompili00.github.io/files/Curriculum_Vitae.pdf){: .btn .btn-primary }

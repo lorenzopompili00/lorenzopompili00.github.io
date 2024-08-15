@@ -46,3 +46,9 @@ Phys.Rev.D 108 (2023) 12, 124036, [arXiv:2303.18143](https://arxiv.org/abs/2303.
 Phys.Rev.D 108 (2023) 12, 124035, [arXiv:2303.18039](https://arxiv.org/abs/2303.18039)
 
 ![image info](./pictures/SXS_BBH_1225_Res5_polarisation_hp-1.png)
+
+### Press
+
+[Mysterious object in the gap (AEI)](https://www.aei.mpg.de/1138125/mysterious-object-in-the-gap?c=26160)
+
+[Next generation waveform models for observing run O4 (AEI)](https://www.aei.mpg.de/1034138/new-waveform-models-for-o4?c=26149)

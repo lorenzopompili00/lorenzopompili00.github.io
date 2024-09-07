@@ -13,10 +13,13 @@ Invited talks marked with *.
   - *Inspiral-merger-ringdown waveforms in Einstein-scalar-Gauss-Bonnet gravity within the effective-one-body formalism*
 
 - **09/2024**: * Fundamental Physics Meets Waveforms With LISA, Potsdam.
-  - *SEOBNRv5: advancements in effective-one-body gravitational waveforms towards LISA*
+  - [*SEOBNRv5: advancements in effective-one-body gravitational waveforms towards LISA*](https://workshops.aei.mpg.de/fpmeetswavelisa/wp-content/uploads/sites/41/2024/02/Lorenzo-Pompili.pdf)
 
 - **09/2024**: * Fundamental Physics Meets Waveforms With LISA, Potsdam.
-  - Panel member: *Effect of systematics on parametrized tests of GR*
+  - Panel member: *LISA MBHB accuracy requirements*
+
+- **09/2024**: * Fundamental Physics Meets Waveforms With LISA, Potsdam.
+  - Panel member: *Impact of systematics on tests of GR*
 
 - **07/2024**: * PAX IX Workshop, London.
   - Panel member: [*Waveform challenges and Numerical Relativity*](https://indico.kcl.ac.uk/event/484/contributions/3570/attachments/761/892/Waveform%20challenges%20and%20numerical%20relativity.pdf)

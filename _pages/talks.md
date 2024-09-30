@@ -8,9 +8,10 @@ author_profile: true
 Invited talks marked with *.
 
 - **09/2024**: LIGO-Virgo-KAGRA Collaboration Meeting, Barcelona.
+  - *Accounting for Numerical-Relativity Calibration Uncertainty in Gravitational-Wave Modeling and Inference*
 
 - **09/2024**: TEONGRAV Workshop, Rome.
-  - *Inspiral-merger-ringdown waveforms in Einstein-scalar-Gauss-Bonnet gravity within the effective-one-body formalism*
+  - [*Inspiral-merger-ringdown waveforms in Einstein-scalar-Gauss-Bonnet gravity within the effective-one-body formalism*](https://agenda.infn.it/event/39201/contributions/236403/attachments/125115/184374/ESGB_EOB_Rome.pdf)
 
 - **09/2024**: * Fundamental Physics Meets Waveforms With LISA, Potsdam.
   - [*SEOBNRv5: advancements in effective-one-body gravitational waveforms towards LISA*](https://workshops.aei.mpg.de/fpmeetswavelisa/wp-content/uploads/sites/41/2024/02/Lorenzo-Pompili.pdf)

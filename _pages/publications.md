@@ -9,11 +9,14 @@ List of selected publications in reversed chronological order. As a member of th
 
 ### Short author-list publications
 
+**[10]** **Lorenzo Pompili**, Alessandra Buonanno, Michael Pürrer *Accounting for Numerical-Relativity Calibration Uncertainty in Gravitational-Wave Modeling and Inference*  
+Submitted to Phys.Rev.Lett., [arXiv:2410.16859](https://arxiv.org/abs/2410.16859)
+
 **[9]** Félix-Louis Julié, **Lorenzo Pompili**, Alessandra Buonanno *Inspiral-merger-ringdown waveforms in Einstein-scalar-Gauss-Bonnet gravity within the effective-one-body formalism*  
 Submitted to Phys.Rev.D., [arXiv:2406.13654](https://arxiv.org/abs/2406.13654)
 
 **[8]** Alessandra Buonanno, Gustav Mogull, Raj Patil, **Lorenzo Pompili**, *Post-Minkowskian Theory Meets the Spinning Effective-One-Body Approach for Bound-Orbit Waveforms*  
-Submitted to Phys.Rev.Lett., [arXiv:2405.19181](https://arxiv.org/abs/2405.19181)
+Accepted in Phys.Rev.Lett., [arXiv:2405.19181](https://arxiv.org/abs/2405.19181)
 
 **[7]** Arnab Dhani et al. (inc. **Lorenzo Pompili**), *Systematic Biases in Estimating the Properties of Black Holes Due to Inaccurate Gravitational-Wave Models*  
 Submitted to Phys.Rev.X, [arXiv:2404.05811](https://arxiv.org/abs/2404.05811)

@@ -5,18 +5,20 @@ permalink: /publications/
 author_profile: true
 ---
 
-List of selected publications in reversed chronological order. As a member of the LIGO Scientific Collaboration, I am a co-author on several full-collaboration papers. Highlighted below are those to which I have made a direct personal contribution. See [INSPIRE](https://inspirehep.net/authors/2776658) for a complete list.
+List of selected publications in reversed chronological order. Publications of which I am lead or co-lead author are marked with *. Publications with author-list in alphabetical order, as common in the high-energy physics community, are marked with **.
+
+As a member of the LIGO Scientific Collaboration, I am a co-author on several full-collaboration papers. Highlighted below are those to which I have made a direct personal contribution. See [INSPIRE](https://inspirehep.net/authors/2776658) for a complete list.
 
 ### Short author-list publications
 
-**[10]** **Lorenzo Pompili**, Alessandra Buonanno, Michael Pürrer *Accounting for Numerical-Relativity Calibration Uncertainty in Gravitational-Wave Modeling and Inference*  
+**[10]** * **Lorenzo Pompili**, Alessandra Buonanno, Michael Pürrer *Accounting for Numerical-Relativity Calibration Uncertainty in Gravitational-Wave Modeling and Inference*  
 Submitted to Phys.Rev.Lett., [arXiv:2410.16859](https://arxiv.org/abs/2410.16859)
 
-**[9]** Félix-Louis Julié, **Lorenzo Pompili**, Alessandra Buonanno *Inspiral-merger-ringdown waveforms in Einstein-scalar-Gauss-Bonnet gravity within the effective-one-body formalism*  
+**[9]** * Félix-Louis Julié, **Lorenzo Pompili**, Alessandra Buonanno *Inspiral-merger-ringdown waveforms in Einstein-scalar-Gauss-Bonnet gravity within the effective-one-body formalism*  
 Submitted to Phys.Rev.D., [arXiv:2406.13654](https://arxiv.org/abs/2406.13654)
 
-**[8]** Alessandra Buonanno, Gustav Mogull, Raj Patil, **Lorenzo Pompili**, *Post-Minkowskian Theory Meets the Spinning Effective-One-Body Approach for Bound-Orbit Waveforms*  
-Accepted in Phys.Rev.Lett., [arXiv:2405.19181](https://arxiv.org/abs/2405.19181)
+**[8]** ** Alessandra Buonanno, Gustav Mogull, Raj Patil, **Lorenzo Pompili**, *Post-Minkowskian Theory Meets the Spinning Effective-One-Body Approach for Bound-Orbit Waveforms*  
+Phys.Rev.Lett. 133 (2024) 21, 211402, [arXiv:2405.19181](https://arxiv.org/abs/2405.19181)
 
 **[7]** Arnab Dhani et al. (inc. **Lorenzo Pompili**), *Systematic Biases in Estimating the Properties of Black Holes Due to Inaccurate Gravitational-Wave Models*  
 Submitted to Phys.Rev.X, [arXiv:2404.05811](https://arxiv.org/abs/2404.05811)
@@ -36,7 +38,7 @@ Phys.Rev.D 108 (2023) 12, 124037, [arXiv:2303.18046](https://arxiv.org/abs/2303.
 **[2]** Mohammed Khalil et al. (inc. **Lorenzo Pompili**), *Theoretical groundwork supporting the precessing-spin two-body dynamics of the effective-one-body waveform models SEOBNRv5*  
 Phys.Rev.D 108 (2023) 12, 124036, [arXiv:2303.18143](https://arxiv.org/abs/2303.18143)
 
-**[1]** **Lorenzo Pompili** et al., *Laying the foundation of the effective-one-body waveform models SEOBNRv5: improved accuracy and efficiency for spinning non-precessing binary black holes*  
+**[1]** * **Lorenzo Pompili** et al., *Laying the foundation of the effective-one-body waveform models SEOBNRv5: improved accuracy and efficiency for spinning non-precessing binary black holes*  
 Phys.Rev.D 108 (2023) 12, 124035, [arXiv:2303.18039](https://arxiv.org/abs/2303.18039)
 
 ![image info](./pictures/SXS_BBH_1225_Res5_polarisation_hp-1.png)

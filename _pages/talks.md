@@ -14,10 +14,10 @@ Invited talks and seminars are marked with \*.
   - *Measuring orbital eccentricity in gravitational-wave events with SEOBNRv6EHM*
 
 - **02/2026**: \* Einstein Telescope Science Workshop for Early Career Researchers, Rome.
-  - *Ready for what lies ahead? Waveform opportunities and challenges towards the Einstein Telescope*
+  - [*Ready for what lies ahead? Waveform opportunities and challenges towards the Einstein Telescope*](https://apps.et-gw.eu/tds/?r=20187)
 
 - **01/2026**: \* "Lost in Translation" Workshop, virtual.
-  - *Effective-one-body waveforms and fluxes in Einstein-scalar-Gauss-Bonnet gravity*
+  - [*Effective-one-body waveforms and fluxes in Einstein-scalar-Gauss-Bonnet gravity*](https://indico.mitp.uni-mainz.de/event/464/sessions/1465/attachments/4182/5513/Presentation_Lorenzo_Pompili.pdf)
 
 - **01/2026**: GW:UK Workshop, Nottingham.
   - *Testing general relativity with black hole ringdowns*

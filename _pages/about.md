@@ -26,6 +26,12 @@ where I completed my undergraduate studies in Physics and went on to earn a Mast
 
 ![Lorenzo Pompili](/images/pic.png)
 
+### News
+
+<div class="news-cards">
+{% assign news_items = site.news | sort: 'date' | reverse %}{% for item in news_items %}<a class="news-card" href="{{ item.url }}"><span class="news-card__thumb">{% if item.image and item.image != "" %}<img src="{{ item.image }}" alt="">{% else %}<span class="news-card__thumb-ph"></span>{% endif %}</span><span class="news-card__meta"><span class="news-card__date">{{ item.date | date: '%b %Y' }}</span><span class="news-card__title">{{ item.title }}</span></span></a>
+{% endfor %}</div>
+
 ### My work
 
 My research lies at the intersection of gravitational-wave modeling and data analysis. 

@@ -6,6 +6,13 @@ local/
 
 # Ignore the Gemfile that is generated
 Gemfile.lock
+Gemfile.local.lock
+
+# Ignore locally vendored gems and Jekyll/Bundler caches
+vendor/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
 
 # Ingore files created by npm
 node_modules

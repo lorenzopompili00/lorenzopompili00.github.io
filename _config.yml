@@ -23,18 +23,19 @@ author:
   # Biographic information
   avatar           : "109740755.png"
   name             : "Lorenzo Pompili"
-  pronouns         : # example: "she/her"  
-  bio              : "PhD student in gravitational-wave astrophysics at the Max Planck Institute for Gravitational Physics, Potsdam. "
-  location         : "Potsdam, DE"
-  employer         : "MPI for Gravitational Physics"
+  pronouns         : # example: "she/her"
+  bio              : "Research Fellow at the University of Nottingham."
+  location         : "Nottingham, UK"
+  employer         : "University of Nottingham"
   uri              : # URL
-  email            : "lorenzo.pompili@aei.mpg.de"
+  email            : "lorenzo.pompili@nottingham.ac.uk"
 
   # Academic websites
-  arxiv            : "https://arxiv.org/search/gr-qc?searchtype=author&query=Pompili,+L"
+  arxiv            : "https://arxiv.org/a/pompili_l_1"
+  inspire          : "https://inspirehep.net/authors/2776658"
   googlescholar    : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-0710-6778"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL

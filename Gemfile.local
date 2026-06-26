@@ -1,0 +1,15 @@
+# Local-preview Gemfile (modern Jekyll, works on Ruby 3.4+/4.0).
+# Production deploys via GitHub Pages, which uses the main Gemfile / its own toolchain.
+# Use with:  BUNDLE_GEMFILE=Gemfile.local bundle exec jekyll serve
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+gem "webrick"
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
+end

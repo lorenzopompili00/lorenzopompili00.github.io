@@ -1,0 +1,145 @@
+/* ==========================================================================
+   Custom refinements — "refined academic" pass
+   Layered on top of the Academic Pages / Minimal Mistakes theme.
+   ========================================================================== */
+
+$accent        : #1f5f8b; // deep cerulean
+$accent-dark   : #16455f;
+$ink           : #1b2733; // deep blue-charcoal
+$display-font  : "Spectral", Georgia, "Times New Roman", serif;
+
+// A gravitational "chirp" sweep — indigo → cerulean → cyan.
+// Used as a thin signature rule beneath headings.
+@mixin chirp-rule($width: 2.75rem, $height: 3px) {
+  content: "";
+  display: block;
+  width: $width;
+  height: $height;
+  margin-top: 0.55rem;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #3a3f9e 0%, #{$accent} 48%, #2bb7c4 100%);
+}
+
+/* Typography
+   ========================================================================== */
+
+body {
+  color: $ink;
+}
+
+h1, h2, h3, h4,
+.page__title,
+.archive__item-title,
+.author__name {
+  font-family: $display-font;
+  color: $ink;
+  letter-spacing: -0.005em;
+}
+
+.page__content {
+  h2, h3 { font-weight: 600; }
+
+  // Signature: chirp rule under the main section headings.
+  > h2::after,
+  > h3::after {
+    @include chirp-rule;
+  }
+
+  p, li { line-height: 1.7; }
+}
+
+.page__title {
+  font-weight: 700;
+  &::after { @include chirp-rule($width: 3.5rem, $height: 4px); }
+}
+
+/* Links
+   ========================================================================== */
+
+a {
+  transition: color 0.15s ease;
+}
+
+.page__content a:not(.btn) {
+  text-decoration: none;
+  border-bottom: 1px solid rgba($accent, 0.28);
+  &:hover {
+    border-bottom-color: $accent;
+    color: $accent-dark;
+  }
+}
+
+/* Masthead
+   ========================================================================== */
+
+.masthead {
+  border-bottom: 1px solid rgba($ink, 0.08);
+  box-shadow: 0 1px 6px rgba($ink, 0.04);
+}
+
+.greedy-nav {
+  background: #fff;
+  .site-title { font-family: $display-font; font-weight: 700; }
+  a { font-weight: 500; }
+  .visible-links a:before { background: $accent; } // animated underline accent
+}
+
+/* Author sidebar
+   ========================================================================== */
+
+.author__avatar img {
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 1px rgba($ink, 0.08), 0 6px 18px rgba($ink, 0.12);
+}
+
+.author__name {
+  font-weight: 700;
+}
+
+.author__bio {
+  color: mix(#000, $ink, 0%);
+  line-height: 1.55;
+}
+
+.author__urls-wrapper .btn--inverse {
+  border-color: rgba($ink, 0.15);
+}
+
+// Subtle accent on the sidebar link icons.
+.author__urls .ai,
+.author__urls .fa,
+.author__urls .fas,
+.author__urls .fab {
+  color: $accent;
+}
+
+/* CV button & primary buttons
+   ========================================================================== */
+
+.btn--primary {
+  background-color: $accent;
+  &:hover { background-color: $accent-dark; }
+}
+
+/* Publication & talk lists
+   ========================================================================== */
+
+// Give the bracketed reference numbers (**[12]**) a touch of accent weight.
+.page__content {
+  ul > li { margin-bottom: 0.35em; }
+
+  // Pull paragraphs (each publication is a paragraph) a little apart.
+  > p { margin-bottom: 1.15em; }
+}
+
+// Soft framing for the embedded waveform figure.
+.page__content img {
+  border-radius: 6px;
+}
+
+/* Print — keep the chirp rules from wasting ink. */
+@media print {
+  .page__content > h2::after,
+  .page__content > h3::after,
+  .page__title::after { display: none; }
+}

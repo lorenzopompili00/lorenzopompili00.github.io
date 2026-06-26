@@ -3,12 +3,13 @@
    Layered on top of the Academic Pages / Minimal Mistakes theme.
    ========================================================================== */
 
-$accent        : #1f5f8b; // deep cerulean
-$accent-dark   : #16455f;
+$accent        : #1568b3; // vivid azure-blue
+$accent-dark   : #0e4f8a;
 $ink           : #1b2733; // deep blue-charcoal
+$card-bg       : #f5f8fb; // faint tint for cards
 $display-font  : "Spectral", Georgia, "Times New Roman", serif;
 
-// A gravitational "chirp" sweep — indigo → cerulean → cyan.
+// A gravitational "chirp" sweep — indigo → azure → cyan (matches the masthead).
 // Used as a thin signature rule beneath headings.
 @mixin chirp-rule($width: 2.75rem, $height: 3px) {
   content: "";
@@ -17,15 +18,19 @@ $display-font  : "Spectral", Georgia, "Times New Roman", serif;
   height: $height;
   margin-top: 0.55rem;
   border-radius: 3px;
-  background: linear-gradient(90deg, #3a3f9e 0%, #{$accent} 48%, #2bb7c4 100%);
+  background: linear-gradient(90deg, #312a8c 0%, #{$accent} 50%, #12a7bd 100%);
 }
 
-/* Typography
+/* Base
    ========================================================================== */
 
 body {
   color: $ink;
+  background-color: #fff;
 }
+
+/* Typography
+   ========================================================================== */
 
 h1, h2, h3, h4,
 .page__title,
@@ -69,19 +74,43 @@ a {
   }
 }
 
-/* Masthead
+/* Masthead — bold "chirp" gradient header band
    ========================================================================== */
 
 .masthead {
-  border-bottom: 1px solid rgba($ink, 0.08);
-  box-shadow: 0 1px 6px rgba($ink, 0.04);
+  border-bottom: 0;
+  box-shadow: 0 2px 16px rgba($ink, 0.22);
+  background: linear-gradient(90deg, #312a8c 0%, #1d63ab 48%, #12a7bd 100%);
 }
 
 .greedy-nav {
-  background: #fff;
-  .site-title { font-family: $display-font; font-weight: 700; }
-  a { font-weight: 500; }
-  .visible-links a:before { background: $accent; } // animated underline accent
+  background: transparent;
+
+  .site-title {
+    font-family: $display-font;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(#000, 0.22);
+  }
+
+  // Top-level (visible) nav links sit on the gradient → white.
+  .visible-links a {
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(#000, 0.22);
+    &:before { background: #fff; } // animated underline accent
+    &:hover { color: rgba(#fff, 0.78); }
+  }
+
+  // Overflow toggle (hamburger) on small screens.
+  > button { color: #fff; }
+  > button:before { background: #fff; }
+
+  // The overflow dropdown panel is light, so keep its links dark.
+  .hidden-links {
+    a { color: $ink; }
+    a:hover { color: $accent; background: rgba($accent, 0.06); }
+  }
 }
 
 /* Author sidebar
@@ -137,9 +166,342 @@ a {
   border-radius: 6px;
 }
 
-/* Print — keep the chirp rules from wasting ink. */
+/* Publication cards
+   ========================================================================== */
+
+.pub-grid {
+  margin: 1.2rem 0 2rem;
+}
+
+// Year groupings within a publication list.
+.pub-year {
+  position: relative;
+  font-family: $display-font;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: $ink;
+  margin: 1.7rem 0 0.8rem;
+  padding-left: 1.1rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #312a8c, $accent, #12a7bd);
+  }
+}
+
+.pub-year:first-child { margin-top: 0.4rem; }
+
+.pub-card {
+  position: relative;
+  padding: 0.95rem 1.15rem 0.9rem;
+  margin-bottom: 0.85rem;
+  background: $card-bg;
+  border: 1px solid rgba($ink, 0.08);
+  border-radius: 10px;
+  transition: box-shadow 0.18s ease, transform 0.18s ease, border-color 0.18s ease;
+}
+
+.pub-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba($ink, 0.10);
+  border-color: rgba($accent, 0.35);
+}
+
+// Lead / editorial papers: accent left edge.
+.pub-card--lead {
+  border-left: 3px solid $accent;
+}
+
+.pub-card__top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.pub-card__num {
+  font-family: $display-font;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: $accent;
+}
+
+.pub-card__star {
+  color: #e0a52b; // gold
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.pub-card__alpha {
+  color: rgba($ink, 0.45);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+.pub-card__tag {
+  margin-left: auto;
+  flex-shrink: 0;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $accent-dark;
+  background: rgba($accent, 0.10);
+  border-radius: 999px;
+  padding: 0.14rem 0.6rem;
+  white-space: nowrap;
+}
+
+.pub-card__title {
+  font-family: $display-font;
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  color: $ink;
+  margin: 0.1rem 0 0.35rem;
+}
+
+.pub-card__authors {
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: rgba($ink, 0.72);
+  margin-bottom: 0.3rem;
+
+  strong { color: $ink; font-weight: 700; }
+}
+
+.pub-card__ref {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: rgba($ink, 0.6);
+
+  a {
+    border-bottom: 0;
+    color: $accent;
+    white-space: nowrap;
+    &:hover { color: $accent-dark; text-decoration: underline; }
+  }
+}
+
+.pub-card__sep { color: rgba($ink, 0.3); }
+
+// Legend star in the intro paragraphs.
+.pub-legend-star { color: #e0a52b; }
+
+/* Talks timeline
+   ========================================================================== */
+
+.talks-timeline {
+  position: relative;
+  margin: 1.6rem 0 2rem;
+  padding-left: 1.6rem;
+  border-left: 2px solid rgba($ink, 0.12);
+}
+
+.talks-year {
+  position: relative;
+  font-family: $display-font;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: $ink;
+  margin: 1.8rem 0 0.9rem -1.6rem;
+  padding-left: 1.6rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #3a3f9e, $accent, #2bb7c4);
+  }
+}
+
+.talks-year:first-child { margin-top: 0; }
+
+.talk-item {
+  position: relative;
+  padding: 0 0 1.25rem 0.5rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.6rem - 5px);
+    top: 0.4rem;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid rgba($accent, 0.55);
+  }
+}
+
+.talk-item--invited::before {
+  background: $accent;
+  border-color: $accent;
+}
+
+.talk-item__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.talk-item__date {
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba($ink, 0.5);
+}
+
+.talk-badge {
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+}
+
+.talk-badge--invited { color: $accent-dark; background: rgba($accent, 0.12); }
+.talk-badge--panel   { color: rgba($ink, 0.6); background: rgba($ink, 0.07); }
+
+.talk-item__venue {
+  font-family: $display-font;
+  font-weight: 600;
+  font-size: 1rem;
+  color: $ink;
+}
+
+.talk-item__loc { color: rgba($ink, 0.6); font-weight: 400; }
+
+.talk-item__title {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: rgba($ink, 0.78);
+  margin-top: 0.1rem;
+}
+
+.talk-slides {
+  display: inline-block;
+  margin-top: 0.3rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: $accent;
+  border-bottom: 0;
+  &:hover { color: $accent-dark; }
+}
+
+/* Research highlights (homepage)
+   ========================================================================== */
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.3rem 0 1.8rem;
+}
+
+.highlight-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba($ink, 0.08);
+  border-radius: 12px;
+  background: $card-bg;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba($ink, 0.08) !important; // override link underline rule
+  transition: box-shadow 0.18s ease, transform 0.18s ease, border-color 0.18s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba($ink, 0.12);
+    border-color: rgba($accent, 0.4) !important;
+  }
+}
+
+.highlight-card__fig { line-height: 0; }
+
+.highlight-card__fig img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  background: #fff;
+  padding: 8px;
+  border-bottom: 1px solid rgba($ink, 0.08);
+  border-radius: 0;
+  display: block;
+}
+
+.highlight-card__placeholder {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    repeating-linear-gradient(135deg, rgba($accent, 0.05) 0 10px, rgba($accent, 0.09) 10px 20px);
+  border-bottom: 1px solid rgba($ink, 0.08);
+
+  span {
+    font-family: $display-font;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba($accent-dark, 0.7);
+  }
+}
+
+.highlight-card__body { padding: 0.85rem 1rem 1rem; flex: 1; display: flex; flex-direction: column; }
+
+.highlight-card__title {
+  font-family: $display-font;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.3;
+  color: $ink;
+  margin-bottom: 0.4rem;
+}
+
+.highlight-card__summary {
+  font-size: 0.83rem;
+  line-height: 1.5;
+  color: rgba($ink, 0.72);
+  margin: 0 0 0.7rem;
+  flex: 1;
+}
+
+.highlight-card__more {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: $accent;
+}
+.highlight-card:hover .highlight-card__more { color: $accent-dark; }
+
+/* Print — keep the chirp rules from wasting ink, flatten cards. */
 @media print {
   .page__content > h2::after,
   .page__content > h3::after,
   .page__title::after { display: none; }
+
+  .pub-card {
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0.4rem 0;
+    margin-bottom: 0.4rem;
+  }
+  .pub-card:hover { transform: none; box-shadow: none; }
 }

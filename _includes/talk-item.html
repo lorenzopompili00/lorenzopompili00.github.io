@@ -1,0 +1,11 @@
+{%- assign t = include.t -%}
+<div class="talk-item{% if t.invited %} talk-item--invited{% endif %}">
+  <div class="talk-item__meta">
+    <span class="talk-item__date">{{ t.mon }} {{ t.year }}</span>
+    {%- if t.invited %}<span class="talk-badge talk-badge--invited">Invited</span>{% endif -%}
+    {%- if t.panel %}<span class="talk-badge talk-badge--panel">Panel</span>{% endif -%}
+  </div>
+  <div class="talk-item__venue">{{ t.venue }}{% if t.location %} <span class="talk-item__loc">&middot; {{ t.location }}</span>{% endif %}</div>
+  <div class="talk-item__title">{{ t.title }}</div>
+  {%- if t.slides %}<a class="talk-slides" href="{{ t.slides }}">Slides &#8599;</a>{% endif -%}
+</div>

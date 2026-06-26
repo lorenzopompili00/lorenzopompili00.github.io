@@ -1,0 +1,15 @@
+{%- assign h = include.h -%}
+<a class="highlight-card" href="{{ h.url }}">
+  <div class="highlight-card__fig">
+    {%- if h.image and h.image != "" -%}
+      <img src="{{ h.image }}" alt="{{ h.image_alt }}" loading="lazy">
+    {%- else -%}
+      <div class="highlight-card__placeholder" aria-hidden="true"><span>Figure</span></div>
+    {%- endif -%}
+  </div>
+  <div class="highlight-card__body">
+    <div class="highlight-card__title">{{ h.title }}</div>
+    <p class="highlight-card__summary">{{ h.summary }}</p>
+    <span class="highlight-card__more">Read the paper &#8599;</span>
+  </div>
+</a>

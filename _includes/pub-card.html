@@ -1,0 +1,18 @@
+{%- assign pub = include.pub -%}
+{%- assign starred = false -%}
+{%- if pub.lead or pub.editorial or pub.alpha -%}{%- assign starred = true -%}{%- endif -%}
+<article class="pub-card{% if starred %} pub-card--lead{% endif %}">
+  <div class="pub-card__top">
+    <span class="pub-card__num">[{{ pub.n }}]</span>
+    {%- if pub.lead %}<span class="pub-card__star" title="Lead or co-lead author">&#9733;</span>{% endif -%}
+    {%- if pub.editorial %}<span class="pub-card__star" title="LIGO–Virgo–KAGRA Editorial Team member">&#9733;</span>{% endif -%}
+    {%- if pub.alpha %}<span class="pub-card__alpha" title="Author list in alphabetical order">&lowast;&lowast;</span>{% endif -%}
+    {%- if pub.tag %}<span class="pub-card__tag">{{ pub.tag }}</span>{% endif -%}
+  </div>
+  <div class="pub-card__title">{{ pub.title }}</div>
+  <div class="pub-card__authors">{{ pub.authors }}</div>
+  <div class="pub-card__ref">
+    {%- if pub.ref %}{% if pub.doi %}<a href="{{ pub.doi }}">{{ pub.ref }}</a>{% else %}<span>{{ pub.ref }}</span>{% endif %}{% endif -%}
+    {%- if pub.arxiv %}{% if pub.ref %} <span class="pub-card__sep">&middot;</span> {% endif %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a>{% endif -%}
+  </div>
+</article>

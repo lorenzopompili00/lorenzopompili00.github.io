@@ -1,0 +1,296 @@
+# Publication list rendered as cards on /publications/ (see _includes/pub-card.html).
+# Fields per entry:
+#   n         : reference number shown as [n]
+#   lead      : true  -> short-list lead/co-lead author (gold star + accent border)
+#   alpha     : true  -> alphabetical author list (shows ** marker)
+#   editorial : true  -> long-list LIGO-Virgo-KAGRA Editorial Team (star + accent border)
+#   authors   : author string; wrap your own name in <strong>...</strong>
+#   title     : paper title (use \(...\) for inline math)
+#   ref       : journal reference, or status ("Submitted to ...", "Accepted in ...", "In preparation")
+#   tag       : journal badge (PRD, PRL, PRX, ApJL, CQG, JCAP, LRR, SoftwareX, SciPost) — leave blank if unpublished
+#   arxiv     : arXiv identifier (linked); leave blank if none
+#   year      : optional. Entries are grouped by arXiv year automatically; only set
+#               this to override the group year for an entry without an arXiv id.
+#   doi       : URL of the published version; makes the journal reference a link
+
+short:
+  - n: 19
+    lead: true
+    authors: '<strong>Lorenzo Pompili</strong>, Aldo Gamboa, Alessandra Buonanno'
+    title: 'Joint inference of line-of-sight acceleration and orbital eccentricity in neutron star black hole binaries'
+    ref: 'In preparation'
+    year: '2026'   # group year (no arXiv yet)
+
+  - n: 18
+    lead: true
+    authors: '<strong>Lorenzo Pompili</strong>, Aldo Gamboa, Alessandra Buonanno'
+    title: 'Eccentric and unbound compact binaries in the LIGO-Virgo-KAGRA catalog: parameter estimation and waveform systematics with SEOBNRv6EHM'
+    ref: 'Submitted to Phys. Rev. D'
+    arxiv: '2605.28716'
+
+  - n: 17
+    authors: 'Aldo Gamboa, Alessandra Buonanno, <strong>Lorenzo Pompili</strong> et al.'
+    title: 'Accurate waveforms for generic planar-orbit binary black holes: The multipolar effective-one-body model SEOBNRv6EHM'
+    ref: 'Submitted to Phys. Rev. D'
+    arxiv: '2605.28715'
+
+  - n: 16
+    authors: 'Nihar Gupte et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Eccentricity constraints disfavor single-single capture in nuclear star clusters as the origin of all LIGO-Virgo-KAGRA binary black holes'
+    ref: 'Submitted to Astrophys. J.'
+    arxiv: '2603.29019'
+
+  - n: 15
+    authors: 'Leonardo Grimaldi, Elisa Maggio, <strong>Lorenzo Pompili</strong>, Alessandra Buonanno'
+    title: 'Plunge–Merger–Ringdown Tests of General Relativity with GW250114'
+    ref: 'Phys. Rev. D (Letter) 113 (2026) 6, L061506'
+    tag: 'PRD'
+    arxiv: '2601.13173'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/g19c-734l'
+
+  - n: 14
+    authors: 'Héctor Estellés, Alessandra Buonanno, Raffi Enficiaud, Cheng Foo, <strong>Lorenzo Pompili</strong>'
+    title: 'Incorporating antisymmetric multipoles for spin-precessing binary signals into the SEOBNR framework'
+    ref: 'Phys. Rev. D 113 (2026) 4, 044049'
+    tag: 'PRD'
+    arxiv: '2506.19911'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/pjbd-pjxn'
+
+  - n: 13
+    lead: true
+    authors: '<strong>Lorenzo Pompili</strong>, Elisa Maggio, Hector O. Silva, Alessandra Buonanno'
+    title: 'A parametrized spin-precessing inspiral-merger-ringdown waveform model for tests of general relativity'
+    ref: 'Phys. Rev. D 111 (2025) 12, 124040'
+    tag: 'PRD'
+    arxiv: '2504.10130'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/ng8w-98sz'
+
+  - n: 12
+    authors: 'Peter James Nee et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Impact of eccentricity and mean anomaly in numerical relativity mergers'
+    ref: 'Class. Quant. Grav. 42 (2025) 135011'
+    tag: 'CQG'
+    arxiv: '2503.05422'
+    doi: 'https://iopscience.iop.org/article/10.1088/1361-6382/ade35d'
+
+  - n: 11
+    authors: 'Aldo Gamboa et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Accurate waveforms for eccentric, aligned-spin binary black holes: The multipolar effective-one-body model SEOBNRv5EHM'
+    ref: 'Phys. Rev. D 112 (2025) 4, 044038'
+    tag: 'PRD'
+    arxiv: '2412.12823'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/jxrc-z298'
+
+  - n: 10
+    lead: true
+    authors: '<strong>Lorenzo Pompili</strong>, Alessandra Buonanno, Michael Pürrer'
+    title: 'Accounting for Numerical-Relativity Calibration Uncertainty in Gravitational-Wave Modeling and Inference'
+    ref: 'Phys. Rev. D 112 (2025) 4, 044062'
+    tag: 'PRD'
+    arxiv: '2410.16859'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/5kbh-83k7'
+
+  - n: 9
+    lead: true
+    authors: 'Félix-Louis Julié, <strong>Lorenzo Pompili</strong>, Alessandra Buonanno'
+    title: 'Inspiral-merger-ringdown waveforms in Einstein-scalar-Gauss-Bonnet gravity within the effective-one-body formalism'
+    ref: 'Phys. Rev. D 111 (2025) 2, 024016'
+    tag: 'PRD'
+    arxiv: '2406.13654'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.024016'
+
+  - n: 8
+    alpha: true
+    authors: 'Alessandra Buonanno, Gustav Mogull, Raj Patil, <strong>Lorenzo Pompili</strong>'
+    title: 'Post-Minkowskian Theory Meets the Spinning Effective-One-Body Approach for Bound-Orbit Waveforms'
+    ref: 'Phys. Rev. Lett. 133 (2024) 21, 211402'
+    tag: 'PRL'
+    arxiv: '2405.19181'
+    doi: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.211402'
+
+  - n: 7
+    authors: 'Arnab Dhani et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Systematic Biases in Estimating the Properties of Black Holes Due to Inaccurate Gravitational-Wave Models'
+    ref: 'Phys. Rev. X 15 (2025) 3, 031036'
+    tag: 'PRX'
+    arxiv: '2404.05811'
+    doi: 'https://journals.aps.org/prx/abstract/10.1103/5pks-qz6b'
+
+  - n: 6
+    authors: 'Alexandre Toubiana, <strong>Lorenzo Pompili</strong> et al.'
+    title: 'Measuring source properties and quasi-normal-mode frequencies of heavy massive black-hole binaries with LISA'
+    ref: 'Phys. Rev. D 109 (2024) 10, 104019'
+    tag: 'PRD'
+    arxiv: '2307.15086'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.104019'
+
+  - n: 5
+    authors: 'Deyan P. Mihaylov et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'pySEOBNR: a software package for the next generation of effective-one-body multipolar waveform models'
+    ref: 'SoftwareX 30 (2025), 102080'
+    tag: 'SoftwareX'
+    arxiv: '2303.18203'
+    doi: 'https://www.sciencedirect.com/science/article/pii/S2352711025000470'
+
+  - n: 4
+    authors: 'Maarten van de Meent et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Enhancing the SEOBNRv5 effective-one-body waveform model with second-order gravitational self-force fluxes'
+    ref: 'Phys. Rev. D 108 (2023) 12, 124038'
+    tag: 'PRD'
+    arxiv: '2303.18026'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.124038'
+
+  - n: 3
+    authors: 'Antoni Ramos-Buades et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'SEOBNRv5PHM: Next generation of accurate and efficient multipolar precessing-spin effective-one-body waveforms for binary black holes'
+    ref: 'Phys. Rev. D 108 (2023) 12, 124037'
+    tag: 'PRD'
+    arxiv: '2303.18046'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.124037'
+
+  - n: 2
+    authors: 'Mohammed Khalil et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Theoretical groundwork supporting the precessing-spin two-body dynamics of the effective-one-body waveform models SEOBNRv5'
+    ref: 'Phys. Rev. D 108 (2023) 12, 124036'
+    tag: 'PRD'
+    arxiv: '2303.18143'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.124036'
+
+  - n: 1
+    lead: true
+    authors: '<strong>Lorenzo Pompili</strong> et al.'
+    title: 'Laying the foundation of the effective-one-body waveform models SEOBNRv5: improved accuracy and efficiency for spinning non-precessing binary black holes'
+    ref: 'Phys. Rev. D 108 (2023) 12, 124035'
+    tag: 'PRD'
+    arxiv: '2303.18039'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.124035'
+
+long:
+  - n: 17
+    editorial: true
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'GWTC-5.0: Tests of General Relativity'
+    ref: 'In preparation'
+    year: '2026'   # group year (no arXiv yet)
+
+  - n: 16
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'GWTC-5.0: Observations from the Second Part of the Fourth LIGO-Virgo-KAGRA Observing Run and Updates to the Gravitational-Wave Transient Catalog'
+    ref: 'Submitted to Astrophys. J. Lett.'
+    arxiv: '2605.27225'
+
+  - n: 15
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'GW240925 and GW250207: Astrophysical Calibration of Gravitational-wave Detectors'
+    ref: 'Accepted in Phys. Rev. Lett.'
+    arxiv: '2605.11703'
+
+  - n: 14
+    authors: 'Quentin Baghi et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'LISA science ground segment conventions'
+    ref: ''
+    arxiv: '2603.22377'
+
+  - n: 13
+    editorial: true
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'GWTC-4.0: Tests of General Relativity. III. Tests of the Remnants'
+    ref: 'Submitted to Astrophys. J. Lett.'
+    arxiv: '2603.19021'
+
+  - n: 12
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'GW241011 and GW241110: Exploring Binary Formation and Fundamental Physics with Asymmetric, High-Spin Black Hole Coalescences'
+    ref: 'Astrophys. J. Lett. 993 (2025) 1, L21'
+    tag: 'ApJL'
+    arxiv: '2510.26931'
+    doi: 'https://iopscience.iop.org/article/10.3847/2041-8213/ae0d54'
+
+  - n: 11
+    editorial: true
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Black Hole Spectroscopy and Tests of General Relativity with GW250114'
+    ref: 'Phys. Rev. Lett. 136 (2026) 4, 041403'
+    tag: 'PRL'
+    arxiv: '2509.08099'
+    doi: 'https://journals.aps.org/prl/abstract/10.1103/6c61-fm1n'
+
+  - n: 10
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'GW250114: Testing Hawking''s Area Law and the Kerr Nature of Black Holes'
+    ref: 'Phys. Rev. Lett. 135 (2025) 11, 111403'
+    tag: 'PRL'
+    arxiv: '2509.08054'
+    doi: 'https://journals.aps.org/prl/abstract/10.1103/kw5g-d732'
+
+  - n: 9
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'GW230814: investigation of a loud gravitational-wave signal observed with a single detector'
+    ref: 'Astrophys. J. Lett. 1004 (2026) 2, L23'
+    tag: 'ApJL'
+    arxiv: '2509.07348'
+    doi: 'https://iopscience.iop.org/article/10.3847/2041-8213/ae2ad3'
+
+  - n: 8
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'GWTC-4.0: Updating the Gravitational-Wave Transient Catalog with Observations from the First Part of the Fourth LIGO-Virgo-KAGRA Observing Run'
+    ref: 'Astrophys. J. Lett. 1004 (2026) 2, L22'
+    tag: 'ApJL'
+    arxiv: '2508.18082'
+    doi: 'https://iopscience.iop.org/article/10.3847/2041-8213/ae2c74'
+
+  - n: 7
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'GW231123: a Binary Black Hole Merger with Total Mass 190–265 \(M_\odot\)'
+    ref: 'Astrophys. J. Lett. 993 (2025) 1, L25'
+    tag: 'ApJL'
+    arxiv: '2507.08219'
+    doi: 'https://iopscience.iop.org/article/10.3847/2041-8213/ae0c9c'
+
+  - n: 6
+    authors: 'Emanuele Berti et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Black hole spectroscopy: from theory to experiment'
+    ref: 'Class. Quant. Grav. 43 (2026) 12, 123001'
+    tag: 'CQG'
+    arxiv: '2505.23895'
+    doi: 'https://iopscience.iop.org/article/10.1088/1361-6382/ae59e2'
+
+  - n: 5
+    authors: 'Adrian Abac et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'The Science of the Einstein Telescope'
+    ref: 'JCAP 03 (2026) 081'
+    tag: 'JCAP'
+    arxiv: '2503.12263'
+    doi: 'https://iopscience.iop.org/article/10.1088/1475-7516/2026/03/081'
+
+  - n: 4
+    authors: 'Anuradha Gupta et al. (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Possible Causes of False General Relativity Violations in Gravitational Wave Observations'
+    ref: 'SciPost Phys. Comm. Rep. 5 (2025)'
+    tag: 'SciPost'
+    arxiv: '2405.02197'
+    doi: 'https://scipost.org/SciPostPhysCommRep.5'
+
+  - n: 3
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Observation of Gravitational Waves from the Coalescence of a \(\sim 2.5\)–\(5\,M_\odot\) Compact Object and a Neutron Star'
+    ref: 'Astrophys. J. Lett. 970 (2024) 2, L34'
+    tag: 'ApJL'
+    arxiv: '2404.04248'
+    doi: 'https://iopscience.iop.org/article/10.3847/2041-8213/ad5beb'
+
+  - n: 2
+    authors: 'LISA Consortium Waveform Working Group (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Waveform Modelling for the Laser Interferometer Space Antenna'
+    ref: 'Living Rev. Rel. 28 (2025) 1, 9'
+    tag: 'LRR'
+    arxiv: '2311.01300'
+    doi: 'https://link.springer.com/article/10.1007/s41114-025-00056-1'
+
+  - n: 1
+    authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
+    title: 'Tests of General Relativity with GWTC-3'
+    ref: 'Phys. Rev. D 112 (2025) 8, 084080'
+    tag: 'PRD'
+    arxiv: '2112.06861'
+    doi: 'https://link.aps.org/doi/10.1103/PhysRevD.112.084080'

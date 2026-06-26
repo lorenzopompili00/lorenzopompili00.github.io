@@ -1,0 +1,23 @@
+# Featured papers shown as "Research highlights" cards on the homepage
+# (see _includes/highlight-card.html). Drop a figure from each paper into
+# /images/highlights/ and set `image` to its path (recommended: ~800px wide,
+# 4:3 or 16:9, white/transparent background). Until then a placeholder shows.
+
+- title: 'SEOBNRv5: a new generation of waveform models'
+  summary: 'I led the development of SEOBNRv5HM, an accurate and efficient effective-one-body model for binary black holes that anchors the SEOBNRv5 family now widely used in LIGO-Virgo-KAGRA analyses.'
+  url: 'https://arxiv.org/abs/2303.18039'
+  image: '/images/highlights/seobnrv5.png'
+  image_alt: 'SEOBNRv5HM accuracy compared with other waveform models'
+
+- title: 'Black-hole spectroscopy with GW250114'
+  summary: 'Using the loudest gravitational-wave signal observed to date, we constrained multiple quasi-normal modes of the remnant black hole and performed a suite of tests of general relativity, finding more stringent constraints than those obtained by combining dozens of previous events.'
+  url: 'https://arxiv.org/abs/2509.08099'
+  image: '/images/highlights/gw250114-spectroscopy.png'
+  image_alt: 'Quasi-normal-mode deviation constraints from GW250114'
+
+- title: 'Waveforms beyond general relativity'
+  summary: 'We built the first inspiral-merger-ringdown waveforms for binary black holes in Einstein-scalar-Gauss-Bonnet gravity within the effective-one-body formalism, enabling tests of this modified-gravity theory with real gravitational-wave data.'
+  url: 'https://arxiv.org/abs/2406.13654'
+  image: '/images/highlights/esgb.png'
+  image_alt: 'Constraint on the Einstein-scalar-Gauss-Bonnet length scale'
+

@@ -1,0 +1,165 @@
+# Talks rendered as a timeline on /talks/ (see _includes/talk-item.html).
+# Fields: mon (short month), year, venue, location, title,
+#         invited (bool), panel (bool, panel discussion), slides (URL, optional).
+# Keep in reverse-chronological order.
+
+- mon: Sep
+  year: 2026
+  venue: gweccentricity Workshop
+  location: Corfu
+  title: 'Detecting eccentricity: current evidence and future prospects'
+  invited: true
+  panel: true
+
+- mon: Mar
+  year: 2026
+  venue: LIGO-Virgo-KAGRA Collaboration Meeting
+  location: Pisa
+  title: 'Measuring orbital eccentricity in gravitational-wave events with SEOBNRv6EHM'
+
+- mon: Feb
+  year: 2026
+  venue: Einstein Telescope Science Workshop for Early Career Researchers
+  location: Rome
+  title: 'Ready for what lies ahead? Waveform opportunities and challenges towards the Einstein Telescope'
+  invited: true
+  slides: 'https://apps.et-gw.eu/tds/?r=20187'
+
+- mon: Jan
+  year: 2026
+  venue: '"Lost in Translation" Workshop'
+  location: virtual
+  title: 'Effective-one-body waveforms and fluxes in Einstein-scalar-Gauss-Bonnet gravity'
+  invited: true
+  slides: 'https://indico.mitp.uni-mainz.de/event/464/sessions/1465/attachments/4182/5513/Presentation_Lorenzo_Pompili.pdf'
+
+- mon: Jan
+  year: 2026
+  venue: 'GW:UK Workshop'
+  location: Nottingham
+  title: 'Testing general relativity with black hole ringdowns'
+
+- mon: Dec
+  year: 2025
+  venue: GWSky Workshop
+  location: Potsdam
+  title: 'Machine learning methods for waveform calibration'
+  invited: true
+  panel: true
+
+- mon: Dec
+  year: 2025
+  venue: GWPAW
+  location: Atlanta
+  title: 'Black Hole Spectroscopy and Tests of General Relativity with GW250114'
+
+- mon: Nov
+  year: 2025
+  venue: Astrophysics Group Seminar
+  location: Birmingham
+  title: 'Testing general relativity with black hole ringdowns'
+  invited: true
+
+- mon: Oct
+  year: 2025
+  venue: Self-Force Group Seminar
+  location: Southampton
+  title: 'Ever more accurate effective-one-body waveforms for gravitational-wave astrophysics'
+  invited: true
+
+- mon: Mar
+  year: 2025
+  venue: LIGO-Virgo-KAGRA Collaboration Meeting
+  location: Melbourne
+  title: 'Incorporating antisymmetric multipoles for spin-precessing binary signals into the SEOBNR framework'
+
+- mon: Mar
+  year: 2025
+  venue: AstroBicocca Seminar
+  location: Milan
+  title: 'Systematic biases in gravitational-wave models: incorporating waveform uncertainty in the parameter estimation of binary-black-hole signals'
+  invited: true
+
+- mon: Mar
+  year: 2025
+  venue: TianQin Student Seminar
+  location: virtual
+  title: 'Systematic biases in gravitational-wave models: incorporating waveform uncertainty in the parameter estimation of binary-black-hole signals'
+  invited: true
+
+- mon: Sep
+  year: 2024
+  venue: LIGO-Virgo-KAGRA Collaboration Meeting
+  location: Barcelona
+  title: 'Accounting for Numerical-Relativity Calibration Uncertainty in Gravitational-Wave Modeling and Inference'
+
+- mon: Sep
+  year: 2024
+  venue: TEONGRAV Workshop
+  location: Rome
+  title: 'Inspiral-merger-ringdown waveforms in Einstein-scalar-Gauss-Bonnet gravity within the effective-one-body formalism'
+  slides: 'https://agenda.infn.it/event/39201/contributions/236403/attachments/125115/184374/ESGB_EOB_Rome.pdf'
+
+- mon: Sep
+  year: 2024
+  venue: Fundamental Physics Meets Waveforms With LISA
+  location: Potsdam
+  title: 'SEOBNRv5: advancements in effective-one-body gravitational waveforms towards LISA'
+  invited: true
+  slides: 'https://workshops.aei.mpg.de/fpmeetswavelisa/wp-content/uploads/sites/41/2024/02/Lorenzo-Pompili.pdf'
+
+- mon: Sep
+  year: 2024
+  venue: Fundamental Physics Meets Waveforms With LISA
+  location: Potsdam
+  title: 'LISA MBHB accuracy requirements'
+  invited: true
+  panel: true
+
+- mon: Sep
+  year: 2024
+  venue: Fundamental Physics Meets Waveforms With LISA
+  location: Potsdam
+  title: 'Impact of systematics on tests of GR'
+  invited: true
+  panel: true
+
+- mon: Jul
+  year: 2024
+  venue: PAX IX Workshop
+  location: London
+  title: 'Waveform challenges and Numerical Relativity'
+  invited: true
+  panel: true
+  slides: 'https://indico.kcl.ac.uk/event/484/contributions/3570/attachments/761/892/Waveform%20challenges%20and%20numerical%20relativity.pdf'
+
+- mon: Mar
+  year: 2024
+  venue: LIGO-Virgo-KAGRA Collaboration Meeting
+  location: Baton Rouge
+  title: 'Inspiral-merger-ringdown waveforms in Einstein-scalar-Gauss-Bonnet gravity within the effective-one-body formalism'
+
+- mon: Sep
+  year: 2023
+  venue: LIGO-Virgo-KAGRA Collaboration Meeting
+  location: Toyama
+  title: 'Accounting for numerical relativity calibration uncertainty in modeling and inference of gravitational waves'
+
+- mon: Jul
+  year: 2023
+  venue: 26th Capra Meeting on Radiation Reaction in General Relativity
+  location: Copenhagen
+  title: 'Enhancing the SEOBNRv5 effective-one-body waveform model with second-order gravitational self-force fluxes'
+  slides: 'https://indico.nbi.ku.dk/event/1894/contributions/14663/attachments/4465/7095/07_05_LorenzoPompili.pdf'
+
+- mon: Sep
+  year: 2022
+  venue: LIGO-Virgo-KAGRA Collaboration Meeting
+  location: Cardiff
+  title: 'Update on SEOBNR waveform development for O4a'
+
+- mon: Mar
+  year: 2022
+  venue: DPG Spring Meeting
+  location: Heidelberg (virtual)
+  title: 'New generation effective-one-body waveforms for binary black-holes with non-precessing spins'

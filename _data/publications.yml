@@ -18,8 +18,8 @@ short:
     lead: true
     authors: '<strong>Lorenzo Pompili</strong>, Aldo Gamboa, Alessandra Buonanno'
     title: 'Joint inference of line-of-sight acceleration and orbital eccentricity in neutron star black hole binaries'
-    ref: 'In preparation'
-    year: '2026'   # group year (no arXiv yet)
+    ref: 'Submitted to Phys. Rev. D'
+    arxiv: '2606.28156'
 
   - n: 18
     lead: true

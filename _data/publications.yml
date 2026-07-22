@@ -37,7 +37,7 @@ short:
   - n: 16
     authors: 'Nihar Gupte et al. (inc. <strong>Lorenzo Pompili</strong>)'
     title: 'Eccentricity constraints disfavor single-single capture in nuclear star clusters as the origin of all LIGO-Virgo-KAGRA binary black holes'
-    ref: 'Submitted to Astrophys. J.'
+    ref: 'Accepted in Astrophys. J.'
     arxiv: '2603.29019'
 
   - n: 15
@@ -170,9 +170,9 @@ long:
     editorial: true
     authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
     title: 'GWTC-5.0: Tests of General Relativity'
-    ref: 'In preparation'
-    year: '2026'   # group year (no arXiv yet)
-
+    ref: 'Submitted to Astrophys. J.'
+    arxiv: '2607.19293'
+  
   - n: 16
     authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
     title: 'GWTC-5.0: Observations from the Second Part of the Fourth LIGO-Virgo-KAGRA Observing Run and Updates to the Gravitational-Wave Transient Catalog'

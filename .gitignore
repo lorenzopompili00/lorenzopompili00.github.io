@@ -17,3 +17,16 @@ vendor/
 # Ingore files created by npm
 node_modules
 package-lock.json
+# LaTeX build artifacts from the CV (files/main.tex); main.pdf is kept since the site links to it
+files/*.aux
+files/*.fdb_latexmk
+files/*.fls
+files/*.log
+files/*.out
+files/*.synctex.gz
+files/*.toc
+files/*.bbl
+files/*.blg
+
+# macOS
+.DS_Store

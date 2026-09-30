@@ -14,6 +14,12 @@
 #   doi       : URL of the published version; makes the journal reference a link
 
 short:
+  - n: 20
+    authors: 'Aldo Gamboa, <strong>Lorenzo Pompili</strong>, Alessandra Buonanno et al.'
+    title: 'Enabling gravitational-wave astronomy with spin-precessing black holes on generic orbits'
+    ref: 'Submitted to Phys. Rev. Lett.'
+    arxiv: '2609.01568'
+
   - n: 19
     lead: true
     authors: '<strong>Lorenzo Pompili</strong>, Aldo Gamboa, Alessandra Buonanno'
@@ -25,7 +31,7 @@ short:
     lead: true
     authors: '<strong>Lorenzo Pompili</strong>, Aldo Gamboa, Alessandra Buonanno'
     title: 'Eccentric and unbound compact binaries in the LIGO-Virgo-KAGRA catalog: parameter estimation and waveform systematics with SEOBNRv6EHM'
-    ref: 'Submitted to Phys. Rev. D'
+    ref: 'Accepted in Phys. Rev. D'
     arxiv: '2605.28716'
 
   - n: 17
@@ -37,8 +43,10 @@ short:
   - n: 16
     authors: 'Nihar Gupte et al. (inc. <strong>Lorenzo Pompili</strong>)'
     title: 'Eccentricity constraints disfavor single-single capture in nuclear star clusters as the origin of all LIGO-Virgo-KAGRA binary black holes'
-    ref: 'Accepted in Astrophys. J.'
+    ref: 'Astrophys. J. 1009 (2026) 1, 90'
+    tag: 'ApJ'
     arxiv: '2603.29019'
+    doi: 'https://iopscience.iop.org/article/10.3847/1538-4357/ae9479'
 
   - n: 15
     authors: 'Leonardo Grimaldi, Elisa Maggio, <strong>Lorenzo Pompili</strong>, Alessandra Buonanno'
@@ -182,8 +190,10 @@ long:
   - n: 15
     authors: 'LIGO-Virgo-KAGRA Collaboration (inc. <strong>Lorenzo Pompili</strong>)'
     title: 'GW240925 and GW250207: Astrophysical Calibration of Gravitational-wave Detectors'
-    ref: 'Accepted in Phys. Rev. Lett.'
+    ref: 'Phys. Rev. Lett. 137 (2026) 7, 071401'
+    tag: 'PRL'
     arxiv: '2605.11703'
+    doi: 'https://journals.aps.org/prl/abstract/10.1103/gzrj-mwv3'
 
   - n: 14
     authors: 'Quentin Baghi et al. (inc. <strong>Lorenzo Pompili</strong>)'

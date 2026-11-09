@@ -22,8 +22,9 @@ redirect_from:
 - **2015 – 2018** &nbsp; **BSc in Physics**, 110/110 *cum laude* — Università degli Studi di Perugia, Italy
   - Thesis: *Relativistic hydrodynamics.* Supervisor: Prof. Gianluca Grignani.
 
-## Collaboration memberships
+## Collaborations and research networks
 
+- **2025 –** &nbsp; [GWSky](https://gwsky.org/) member (ERC Synergy Grant *Making Sense of the Unexpected in the Gravitational-Wave Sky*)
 - **2023 –** &nbsp; LISA Consortium core member (2024–2026 member of the LISA Distributed Data Processing Center)
 - **2022 –** &nbsp; Einstein Telescope Collaboration member
 - **2021 –** &nbsp; LIGO Scientific Collaboration member

@@ -31,14 +31,18 @@ short:
     lead: true
     authors: '<strong>Lorenzo Pompili</strong>, Aldo Gamboa, Alessandra Buonanno'
     title: 'Eccentric and unbound compact binaries in the LIGO-Virgo-KAGRA catalog: parameter estimation and waveform systematics with SEOBNRv6EHM'
-    ref: 'Accepted in Phys. Rev. D'
+    ref: 'Phys. Rev. D 114 (2026) 10, 104009'
+    tag: 'PRD'
     arxiv: '2605.28716'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/cx64-gmkk'
 
   - n: 17
     authors: 'Aldo Gamboa, Alessandra Buonanno, <strong>Lorenzo Pompili</strong> et al.'
     title: 'Accurate waveforms for generic planar-orbit binary black holes: The multipolar effective-one-body model SEOBNRv6EHM'
-    ref: 'Submitted to Phys. Rev. D'
+    ref: 'Phys. Rev. D 114 (2026) 10, 104010'
+    tag: 'PRD'
     arxiv: '2605.28715'
+    doi: 'https://journals.aps.org/prd/abstract/10.1103/shbg-989s'
 
   - n: 16
     authors: 'Nihar Gupte et al. (inc. <strong>Lorenzo Pompili</strong>)'

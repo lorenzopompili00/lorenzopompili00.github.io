@@ -30,3 +30,6 @@ files/*.blg
 
 # macOS
 .DS_Store
+
+# Research statement (private, not published)
+files/research_statement.*
